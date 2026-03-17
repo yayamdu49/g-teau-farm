@@ -30,15 +30,15 @@ ecole_patisserie_enabled=true
 ecole_patisserie_price=25000
 
 usine_sucre_enabled=true
-usine_sucre_price=120000
+usine_sucre_price=1500000
 
 chateau_gateau_enabled=true
-chateau_gateau_price=600000
+chateau_gateau_price=6500000
 
 planete_sucree_enabled=true
-planete_sucree_price=4000000
+planete_sucree_price=20000000
 
-multiplicateur_enabled=true
+multiplicateur_enabled=false
 multiplicateur_price=300
 
 clic_ameliore_enabled=true
