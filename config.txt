@@ -47,7 +47,7 @@ clic_ameliore_price=100
 # ============================================================
 #  UPGRADES — enabled=true/false  |  price=entier
 # ============================================================
-upgrade_clic_1_enabled=false
+upgrade_clic_1_enabled=true
 upgrade_clic_1_price=150
 
 upgrade_clic_2_enabled=true
