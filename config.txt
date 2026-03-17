@@ -6,7 +6,7 @@
 # ============================================================
 
 # ── URL de ce fichier (pour que le jeu sache ou se recharger) ──
-config_url=https://raw.githubusercontent.com/TON_USER/TON_REPO/main/config.txt
+config_url=https://raw.githubusercontent.com/yayamdu49/g-teau-farm/main/config.txt
 
 # ============================================================
 #  BATIMENTS — enabled=true/false  |  price=entier
@@ -139,7 +139,7 @@ temp_building_duration_sec=30
 #  PARAMETRES GLOBAUX
 # ============================================================
 # Message affiche en bas du jeu (laisser vide pour rien)
-server_message=Bienvenue sur Gateau Farm !
+server_message=Gateau farm est basé sur cookie clickers !
 # Multiplicateur global de tous les prix (ex: 2.0 = tout x2 plus cher)
 global_price_mult=1.0
 # Multiplicateur global de toute la production (cadeau serveur)
