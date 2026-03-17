@@ -11,7 +11,7 @@ config_url=https://raw.githubusercontent.com/yayamdu49/g-teau-farm/main/config.t
 # ============================================================
 #  BATIMENTS — enabled=true/false  |  price=entier
 # ============================================================
-patissier_enabled=true
+patissier_enabled=false
 patissier_price=15
 
 fournil_enabled=true
