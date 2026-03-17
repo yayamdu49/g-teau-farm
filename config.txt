@@ -1,0 +1,146 @@
+# ============================================================
+#  Gateau Farm — Fichier de configuration distant
+#  Heberge sur GitHub Raw (ex: raw.githubusercontent.com/...)
+#  Le jeu recharge ce fichier toutes les 60 secondes.
+#  Lignes commencant par # = commentaires (ignorees)
+# ============================================================
+
+# ── URL de ce fichier (pour que le jeu sache ou se recharger) ──
+config_url=https://raw.githubusercontent.com/TON_USER/TON_REPO/main/config.txt
+
+# ============================================================
+#  BATIMENTS — enabled=true/false  |  price=entier
+# ============================================================
+patissier_enabled=true
+patissier_price=15
+
+fournil_enabled=true
+fournil_price=100
+
+boutique_enabled=true
+boutique_price=400
+
+chocolaterie_enabled=true
+chocolaterie_price=1500
+
+boulangerie_enabled=true
+boulangerie_price=6000
+
+ecole_patisserie_enabled=true
+ecole_patisserie_price=25000
+
+usine_sucre_enabled=true
+usine_sucre_price=120000
+
+chateau_gateau_enabled=true
+chateau_gateau_price=600000
+
+planete_sucree_enabled=true
+planete_sucree_price=4000000
+
+multiplicateur_enabled=true
+multiplicateur_price=300
+
+clic_ameliore_enabled=true
+clic_ameliore_price=100
+
+# ============================================================
+#  UPGRADES — enabled=true/false  |  price=entier
+# ============================================================
+upgrade_clic_1_enabled=true
+upgrade_clic_1_price=150
+
+upgrade_clic_2_enabled=true
+upgrade_clic_2_price=1000
+
+upgrade_clic_3_enabled=true
+upgrade_clic_3_price=5000
+
+upgrade_clic_4_enabled=true
+upgrade_clic_4_price=25000
+
+upgrade_clic_5_enabled=true
+upgrade_clic_5_price=200000
+
+upgrade_prod_p_enabled=true
+upgrade_prod_p_price=300
+
+upgrade_prod_f_enabled=true
+upgrade_prod_f_price=500
+
+upgrade_prod_b_enabled=true
+upgrade_prod_b_price=2500
+
+upgrade_prod_c_enabled=true
+upgrade_prod_c_price=12000
+
+upgrade_prod_g_enabled=true
+upgrade_prod_g_price=50000
+
+upgrade_prod_e_enabled=true
+upgrade_prod_e_price=200000
+
+upgrade_prod_u_enabled=true
+upgrade_prod_u_price=800000
+
+upgrade_prod_r_enabled=true
+upgrade_prod_r_price=3000000
+
+upgrade_prod_s_enabled=true
+upgrade_prod_s_price=20000000
+
+upgrade_del_1_enabled=true
+upgrade_del_1_price=1500
+
+upgrade_del_2_enabled=true
+upgrade_del_2_price=20000
+
+upgrade_del_3_enabled=true
+upgrade_del_3_price=300000
+
+upgrade_crit_1_enabled=true
+upgrade_crit_1_price=8000
+
+upgrade_crit_2_enabled=true
+upgrade_crit_2_price=75000
+
+upgrade_prestige_1_enabled=true
+upgrade_prestige_1_price=1000000
+
+# ============================================================
+#  EVENEMENTS ALEATOIRES
+# ============================================================
+# Intervalle en secondes entre chaque tentative de declenchement
+event_interval_sec=60
+# Probabilite (0.0 a 1.0) de declencher un evenement a chaque intervalle
+event_chance=0.30
+
+# Activer/desactiver chaque evenement individuellement
+event_tempete_sucre_enabled=true
+event_golden_cake_enabled=true
+event_panne_four_enabled=true
+event_inspection_enabled=true
+event_fournee_magique_enabled=true
+event_rush_livraison_enabled=true
+event_critique_supreme_enabled=true
+
+# ============================================================
+#  BATIMENT TEMPORAIRE (Marche de Noel)
+# ============================================================
+temp_building_enabled=true
+# Intervalle en secondes entre chaque tentative d'apparition
+temp_building_interval_sec=300
+# Probabilite d'apparition a chaque intervalle
+temp_building_chance=0.25
+# Duree en secondes du batiment temporaire
+temp_building_duration_sec=30
+
+# ============================================================
+#  PARAMETRES GLOBAUX
+# ============================================================
+# Message affiche en bas du jeu (laisser vide pour rien)
+server_message=Bienvenue sur Gateau Farm !
+# Multiplicateur global de tous les prix (ex: 2.0 = tout x2 plus cher)
+global_price_mult=1.0
+# Multiplicateur global de toute la production (cadeau serveur)
+global_prod_mult=1.0
