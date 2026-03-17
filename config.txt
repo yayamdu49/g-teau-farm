@@ -15,19 +15,19 @@ patissier_enabled=true
 patissier_price=15
 
 fournil_enabled=true
-fournil_price=100
+fournil_price=1000
 
 boutique_enabled=true
-boutique_price=400
+boutique_price=5000
 
 chocolaterie_enabled=true
-chocolaterie_price=1500
+chocolaterie_price=10000
 
 boulangerie_enabled=true
-boulangerie_price=6000
+boulangerie_price=20000
 
 ecole_patisserie_enabled=true
-ecole_patisserie_price=25000
+ecole_patisserie_price=200000
 
 usine_sucre_enabled=true
 usine_sucre_price=1500000
