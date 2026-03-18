@@ -11,7 +11,7 @@
 # config_url = https://raw.githubusercontent.com/TON_USER/TON_REPO/main/config.txt
 
 # Version disponible (le jeu compare avec la sienne)
-version = 1.1.0
+version = 1.0.0
 
 # Lien de téléchargement affiché dans la popup
 download_url = https://crabygreen.itch.io
