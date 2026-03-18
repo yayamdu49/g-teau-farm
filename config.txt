@@ -31,14 +31,14 @@ gateau/s_planete_sucree   = 10000
 # ============================================================
 
 prix_patissier          = 15
-prix_fournil            = 100
-prix_boutique           = 400
-prix_chocolaterie       = 1500
-prix_boulangerie        = 6000
-prix_ecole_patisserie   = 25000
-prix_usine_sucre        = 120000
-prix_chateau_gateau     = 600000
-prix_planete_sucree     = 4000000
+prix_fournil            = 1000
+prix_boutique           = 5000
+prix_chocolaterie       = 10000
+prix_boulangerie        = 20000
+prix_ecole_patisserie   = 200000
+prix_usine_sucre        = 1500000
+prix_chateau_gateau     = 6500000
+prix_planete_sucree     = 20000000
 prix_multiplicateur     = 300
 prix_clic_ameliore      = 100
 
@@ -56,7 +56,7 @@ actif_ecole_patisserie  = true
 actif_usine_sucre       = true
 actif_chateau_gateau    = true
 actif_planete_sucree    = true
-actif_multiplicateur    = true
+actif_multiplicateur    = false
 actif_clic_ameliore     = true
 
 
