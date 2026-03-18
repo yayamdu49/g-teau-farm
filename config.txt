@@ -25,7 +25,7 @@ patch_notes =  ==bienvenue sur la 1.0 | ceci est l'endroit ou seron marqué tout
 # ============================================================
 
 gateau/s_patissier        = 0
-gateau/s_fournil          = 1000000
+gateau/s_fournil          = 6
 gateau/s_boutique         = 12
 gateau/s_chocolaterie     = 40
 gateau/s_boulangerie      = 100
