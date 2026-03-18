@@ -1,146 +1,152 @@
 # ============================================================
-#  Gateau Farm — Fichier de configuration distant
-#  Heberge sur GitHub Raw (ex: raw.githubusercontent.com/...)
-#  Le jeu recharge ce fichier toutes les 60 secondes.
-#  Lignes commencant par # = commentaires (ignorees)
+#  Gateau Farm — fichier de configuration
+#  Heberge sur GitHub Raw, lu par le jeu toutes les 60 sec.
+#
+#  Syntaxe : cle = valeur
+#  Lignes commencant par # ignorees.
+#  Valeurs : nombre entier, decimal (avec .), true / false
 # ============================================================
 
-# ── URL de ce fichier (pour que le jeu sache ou se recharger) ──
-config_url=https://raw.githubusercontent.com/yayamdu49/g-teau-farm/main/config.txt
+# -- URL de ce fichier (pour rechargement automatique) -------
+# config_url = https://raw.githubusercontent.com/TON_USER/TON_REPO/main/config.txt
+
 
 # ============================================================
-#  BATIMENTS — enabled=true/false  |  price=entier
+#  PRODUCTION DES BATIMENTS  (gateaux par seconde par unite)
 # ============================================================
-patissier_enabled=true
-patissier_price=15
 
-fournil_enabled=true
-fournil_price=1000
+gateau/s_patissier        = 0
+gateau/s_fournil          = 4
+gateau/s_boutique         = 12
+gateau/s_chocolaterie     = 40
+gateau/s_boulangerie      = 100
+gateau/s_ecole_patisserie = 280
+gateau/s_usine_sucre      = 800
+gateau/s_chateau_gateau   = 2500
+gateau/s_planete_sucree   = 10000
 
-boutique_enabled=true
-boutique_price=5000
-
-chocolaterie_enabled=true
-chocolaterie_price=10000
-
-boulangerie_enabled=true
-boulangerie_price=20000
-
-ecole_patisserie_enabled=true
-ecole_patisserie_price=200000
-
-usine_sucre_enabled=true
-usine_sucre_price=1500000
-
-chateau_gateau_enabled=true
-chateau_gateau_price=6500000
-
-planete_sucree_enabled=true
-planete_sucree_price=20000000
-
-multiplicateur_enabled=false
-multiplicateur_price=300
-
-clic_ameliore_enabled=true
-clic_ameliore_price=100
 
 # ============================================================
-#  UPGRADES — enabled=true/false  |  price=entier
+#  PRIX DE DEPART DES BATIMENTS
 # ============================================================
-upgrade_clic_1_enabled=true
-upgrade_clic_1_price=150
 
-upgrade_clic_2_enabled=true
-upgrade_clic_2_price=1000
+prix_patissier          = 15
+prix_fournil            = 100
+prix_boutique           = 400
+prix_chocolaterie       = 1500
+prix_boulangerie        = 6000
+prix_ecole_patisserie   = 25000
+prix_usine_sucre        = 120000
+prix_chateau_gateau     = 600000
+prix_planete_sucree     = 4000000
+prix_multiplicateur     = 300
+prix_clic_ameliore      = 100
 
-upgrade_clic_3_enabled=true
-upgrade_clic_3_price=5000
 
-upgrade_clic_4_enabled=true
-upgrade_clic_4_price=25000
+# ============================================================
+#  ACTIVER / DESACTIVER LES BATIMENTS  (true / false)
+# ============================================================
 
-upgrade_clic_5_enabled=true
-upgrade_clic_5_price=200000
+actif_patissier         = true
+actif_fournil           = true
+actif_boutique          = true
+actif_chocolaterie      = true
+actif_boulangerie       = true
+actif_ecole_patisserie  = true
+actif_usine_sucre       = true
+actif_chateau_gateau    = true
+actif_planete_sucree    = true
+actif_multiplicateur    = true
+actif_clic_ameliore     = true
 
-upgrade_prod_p_enabled=true
-upgrade_prod_p_price=300
 
-upgrade_prod_f_enabled=true
-upgrade_prod_f_price=500
+# ============================================================
+#  VALEURS DES EFFETS D'UPGRADES
+# ============================================================
 
-upgrade_prod_b_enabled=true
-upgrade_prod_b_price=2500
+upgrade_clic_1_val   = 5       # flat bonus par clic (Recette secrete)
+upgrade_clic_2_val   = 2.0     # multiplicateur clic (Mains en or)
+upgrade_clic_3_val   = 0.15    # chance critique ajoutee (Toucher divin)
+upgrade_clic_4_flat  = 20      # flat bonus par clic (Fureur du boulanger)
+upgrade_clic_4_mult  = 1.5     # multiplicateur clic (Fureur du boulanger)
+upgrade_clic_5_val   = 3.0     # multiplicateur clic (Claquement cosmique)
 
-upgrade_prod_c_enabled=true
-upgrade_prod_c_price=12000
+upgrade_prod_f_val   = 1.5
+upgrade_prod_b_val   = 1.8
+upgrade_prod_c_val   = 2.0
+upgrade_prod_g_val   = 2.5
+upgrade_prod_e_val   = 3.0
+upgrade_prod_u_val   = 5.0
+upgrade_prod_r_val   = 8.0
+upgrade_prod_s_val   = 15.0
 
-upgrade_prod_g_enabled=true
-upgrade_prod_g_price=50000
+upgrade_del_1_val    = 2.0
+upgrade_del_2_val    = 5.0
+upgrade_del_3_val    = 20.0
 
-upgrade_prod_e_enabled=true
-upgrade_prod_e_price=200000
+upgrade_crit_1_val   = 0.10
+upgrade_crit_2_val   = 5.0
 
-upgrade_prod_u_enabled=true
-upgrade_prod_u_price=800000
+upgrade_prestige_1_val = 2.0
 
-upgrade_prod_r_enabled=true
-upgrade_prod_r_price=3000000
 
-upgrade_prod_s_enabled=true
-upgrade_prod_s_price=20000000
+# ============================================================
+#  ACTIVER / DESACTIVER LES UPGRADES  (true / false)
+# ============================================================
 
-upgrade_del_1_enabled=true
-upgrade_del_1_price=1500
+actif_upgrade_clic_1      = true
+actif_upgrade_clic_2      = true
+actif_upgrade_clic_3      = true
+actif_upgrade_clic_4      = true
+actif_upgrade_clic_5      = true
+actif_upgrade_prod_p      = true
+actif_upgrade_prod_f      = true
+actif_upgrade_prod_b      = true
+actif_upgrade_prod_c      = true
+actif_upgrade_prod_g      = true
+actif_upgrade_prod_e      = true
+actif_upgrade_prod_u      = true
+actif_upgrade_prod_r      = true
+actif_upgrade_prod_s      = true
+actif_upgrade_del_1       = true
+actif_upgrade_del_2       = true
+actif_upgrade_del_3       = true
+actif_upgrade_crit_1      = true
+actif_upgrade_crit_2      = true
+actif_upgrade_prestige_1  = true
 
-upgrade_del_2_enabled=true
-upgrade_del_2_price=20000
-
-upgrade_del_3_enabled=true
-upgrade_del_3_price=300000
-
-upgrade_crit_1_enabled=true
-upgrade_crit_1_price=8000
-
-upgrade_crit_2_enabled=true
-upgrade_crit_2_price=75000
-
-upgrade_prestige_1_enabled=true
-upgrade_prestige_1_price=1000000
 
 # ============================================================
 #  EVENEMENTS ALEATOIRES
 # ============================================================
-# Intervalle en secondes entre chaque tentative de declenchement
-event_interval_sec=60
-# Probabilite (0.0 a 1.0) de declencher un evenement a chaque intervalle
-event_chance=0.30
 
-# Activer/desactiver chaque evenement individuellement
-event_tempete_sucre_enabled=true
-event_golden_cake_enabled=true
-event_panne_four_enabled=true
-event_inspection_enabled=true
-event_fournee_magique_enabled=true
-event_rush_livraison_enabled=true
-event_critique_supreme_enabled=true
+event_interval_sec   = 60
+event_chance         = 0.30
 
-# ============================================================
-#  BATIMENT TEMPORAIRE (Marche de Noel)
-# ============================================================
-temp_building_enabled=true
-# Intervalle en secondes entre chaque tentative d'apparition
-temp_building_interval_sec=300
-# Probabilite d'apparition a chaque intervalle
-temp_building_chance=0.25
-# Duree en secondes du batiment temporaire
-temp_building_duration_sec=30
+actif_event_tempete_sucre    = true
+actif_event_golden_cake      = true
+actif_event_panne_four       = true
+actif_event_inspection       = true
+actif_event_fournee_magique  = true
+actif_event_rush_livraison   = true
+actif_event_critique_supreme = true
+
 
 # ============================================================
-#  PARAMETRES GLOBAUX
+#  MARCHE DE NOEL (batiment temporaire)
 # ============================================================
-# Message affiche en bas du jeu (laisser vide pour rien)
-server_message=Gateau farm est basé sur cookie clickers !
-# Multiplicateur global de tous les prix (ex: 2.0 = tout x2 plus cher)
-global_price_mult=1.0
-# Multiplicateur global de toute la production (cadeau serveur)
-global_prod_mult=1.0
+
+actif_marche_noel           = true
+marche_noel_interval_sec    = 300
+marche_noel_chance          = 0.25
+marche_noel_duree_sec       = 30
+
+
+# ============================================================
+#  GLOBAL
+# ============================================================
+
+multiplicateur_prix_global  = 1.0
+multiplicateur_prod_global  = 1.0
+
+message_serveur =
