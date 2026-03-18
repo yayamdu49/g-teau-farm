@@ -17,7 +17,7 @@ version = 1.0
 download_url = https://crabygreen.itch.io
 
 # Notes de patch — séparées par des | — "==" pour un titre de section
-patch_notes =  ==bienvenue sur la 1.0.0 | ceci est l'endroit ou seron marqué toute les nouvauté / correction
+patch_notes =  ==bienvenue sur la 1.0 | ceci est l'endroit ou seron marqué toute les nouvauté / correction
 
 
 # ============================================================
