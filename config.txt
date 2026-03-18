@@ -16,7 +16,7 @@ version = 1.1.0
 # Lien de téléchargement affiché dans la popup
 download_url = https://crabygreen.itch.io
 
-# Notes de patch — séparées par des | — ## pour un titre de section
+# Notes de patch — séparées par des | — "==" pour un titre de section
 patch_notes =  ==Nouveautés 1.1.0 | Ajout des niveaux de bâtiments | Système de météo sucrée | Confettis et feux d'artifice | ==Corrections | aucune corrections pour cette version
 
 
