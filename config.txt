@@ -25,31 +25,31 @@ patch_notes =  ==bienvenue sur la 1.0 | ceci est l'endroit ou seron marqué tout
 # ============================================================
 
 gateau/s_patissier        = 0
-gateau/s_fournil          = 6
-gateau/s_boutique         = 12
-gateau/s_chocolaterie     = 40
-gateau/s_boulangerie      = 100
-gateau/s_ecole_patisserie = 280
-gateau/s_usine_sucre      = 800
-gateau/s_chateau_gateau   = 2500
-gateau/s_planete_sucree   = 10000
+gateau/s_fournil          = 3
+gateau/s_boutique         = 10
+gateau/s_chocolaterie     = 35
+gateau/s_boulangerie      = 120
+gateau/s_ecole_patisserie = 400
+gateau/s_usine_sucre      = 1200
+gateau/s_chateau_gateau   = 5000
+gateau/s_planete_sucree   = 20000
 
 
 # ============================================================
 #  PRIX DE DEPART DES BATIMENTS
 # ============================================================
 
-prix_patissier          = 15
-prix_fournil            = 1000
-prix_boutique           = 5000
-prix_chocolaterie       = 10000
-prix_boulangerie        = 20000
-prix_ecole_patisserie   = 200000
-prix_usine_sucre        = 1500000
-prix_chateau_gateau     = 6500000
-prix_planete_sucree     = 20000000
-prix_multiplicateur     = 300
-prix_clic_ameliore      = 100
+prix_patissier          = 25
+prix_fournil            = 180
+prix_boutique           = 900
+prix_chocolaterie       = 5000
+prix_boulangerie        = 22000
+prix_ecole_patisserie   = 120000
+prix_usine_sucre        = 800000
+prix_chateau_gateau     = 6000000
+prix_planete_sucree     = 60000000
+prix_multiplicateur     = 1200
+prix_clic_ameliore      = 200
 
 
 # ============================================================
