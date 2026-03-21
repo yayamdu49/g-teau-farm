@@ -8,7 +8,7 @@
 # ============================================================
 
 # -- URL de ce fichier (pour rechargement automatique) -------
-# config_url = https://raw.githubusercontent.com/TON_USER/TON_REPO/main/config.txt
+# config_url = https://raw.githubusercontent.com/yayamdu49/g-teau-farm/main/config.txt
 
 # Version disponible (le jeu compare avec la sienne)
 version = 1.0
@@ -21,6 +21,9 @@ patch_notes =  ==bienvenue sur la 1.0 | ceci est l'endroit ou seron marqué tout
 
 maintenance = false
 maintenance_message = Nous somme désoler mais gateau farm est indispobible pendant 2 heure (réouverture 18h30)
+
+message = true
+message_texte = Salut tout le monde ! La v1.1 arrive bientot avec plein de nouveautes !
 
 
 # ============================================================
