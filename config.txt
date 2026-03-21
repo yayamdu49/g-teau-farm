@@ -22,7 +22,7 @@ patch_notes =  ==bienvenue sur la 1.0 | ceci est l'endroit ou seron marqué tout
 maintenance = false
 maintenance_message = Nous somme désoler mais gateau farm est indispobible pendant 2 heure (réouverture 18h30)
 
-message = true
+message = false
 message_texte = Salut tout le monde ! La v1.1 arrive bientot avec plein de nouveautes !
 
 countdown_actif = true
