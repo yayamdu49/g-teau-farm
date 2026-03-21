@@ -25,11 +25,11 @@ maintenance_message = Nous somme désoler mais gateau farm est indispobible pend
 message = false
 message_texte = Salut tout le monde ! La v1.1 arrive bientot avec plein de nouveautes !
 
-countdown_actif = true
+countdown_actif = false
 countdown = 2026-03-21 20:00
 countdown_label = Mise a jour v1.1 (test) !
 
-leaderboard_actif = true
+leaderboard_actif = false
 
 
 # ============================================================
