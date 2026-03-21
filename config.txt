@@ -20,7 +20,7 @@ download_url = https://crabygreen.itch.io
 patch_notes =  ==bienvenue sur la 1.0 | ceci est l'endroit ou seron marqué toute les nouvauté / correction
 
 maintenance = true
-maintenance_message = Gateau Farm est en maintenance pour la v1.1. Reviens dans 10 min !
+maintenance_message = maintenance indéterminer nous somme désoler mais gateau farm est indispobible pendant 2 heure (réouverture 18h30)
 
 
 # ============================================================
