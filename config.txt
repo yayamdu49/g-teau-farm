@@ -26,7 +26,7 @@ message = false
 message_texte = Salut tout le monde ! La v1.1 arrive bientot avec plein de nouveautes !
 
 countdown_actif = true
-countdown = 2025-03-21 20:00
+countdown = 2026-03-21 20:00
 countdown_label = Mise a jour v1.1 (test) !
 
 leaderboard_actif = true
